@@ -53,7 +53,7 @@ def encrypt():
     labelmessage.grid(row=0, column=1)
     
     scrollbar2 = Scrollbar(encryptmenu)
-    scrollbar2.grid(row=0, column=2, sticky=S+N)
+    scrollbar2.grid(row=0, column=3, sticky=S+N)
     entrymessage = Text(encryptmenu, relief="flat", font=entryfont, height=5, width=37, yscrollcommand=scrollbar2.set, wrap=WORD)
     entrymessage.grid(row=0, column=2, sticky=W)
     scrollbar2.config(command=entrymessage.yview)
