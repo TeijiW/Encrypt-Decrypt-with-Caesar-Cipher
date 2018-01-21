@@ -39,25 +39,25 @@ def decrypt():
     abclist = string.ascii_lowercase + string.ascii_lowercase
     str = str.lower() 
     strlist = list(str)
-    cont = 0
+    cont = -1
     rot = -1
-    mastercont = 0 
+    mastercont = 0
     newlist = []
     os.system("cls")
     while True:
-        if mastercont == 25:
-            break 
         cont += 1
         if cont == len(strlist):
             cont = 0
             rot -= 1 
             mastercont += 1
             newlist = "".join(newlist)
-            print("Rotação {}: {}".format(mastercont,newlist))
+            print("Rotation {}: {}".format(mastercont,newlist))
             print("----------------------------------------------------------------")
             print("")
             print("")
             newlist = []
+            if mastercont == 25:
+                break 
         m = strlist[cont]
         n = abclist.find(m)
         n = n+26
