@@ -1,6 +1,21 @@
-# Encrypt-Decrypt-with-Caesar-Cipher
-This script (with GUI) encrypt or decrypt your message with Caesar Cipher
+###### Versão/Version
+1.0
 
-Author: **TeijiW**   
-Release: 1.0   
-Note: **If you has a ideia for this script, fork!**   
+###### Nome do Projeto/Name of Project
+Encrypt and Decrypt with Caesar Cipher
+
+---
+
+###### Desenvolvedor/Developer
+
+- Alessandro  Teiji
+
+---
+
+🇧🇷  
+Esse projeto tem como finalidade, apenas testar o meu conhecimento sobre a linguagem e as ferramentas dela. 
+
+---
+
+🇺🇸  
+This project aims to test my knowledge about the language and the tools of her.
